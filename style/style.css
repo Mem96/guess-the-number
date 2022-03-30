@@ -1,0 +1,122 @@
+@font-face{
+    font-family: 'Sail';
+    src: url('fonts/sail.otf');
+}
+
+@font-face {
+    font-family: 'Recursive';
+    src: url('fonts/recursive.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: auto;
+    height: 100vh;
+    text-align: center;
+    background-image: url('background.jpg');
+    background-size: cover;
+
+    color: rgb(58, 146, 247);
+    font-size: 24px;
+    font-family: 'Recursive', monospace;
+    overflow: hidden;
+    user-select: none;
+}
+
+h1{
+    padding: 20px;
+    padding-bottom: 0;
+    color: white;
+    font-family: 'Sail', monospace;
+    font-weight: normal;
+}
+
+h2{
+    color: white;
+    padding: 10px;
+    font-family: 'Sail', monospace;
+    font-weight: normal;
+}
+
+.difficulty-container{
+    margin: 10px;
+    font-size: 20px;
+}
+
+select{
+    font-size: 20px;
+    margin: 10px;
+    background-color: rgb(206, 29, 6);
+    color:white;
+    font-family: 'Recursive';
+    text-align: center;
+    border-radius: 10px;
+}
+
+#attempt-num{
+    font-size: 20px;
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+    color: white;
+    background-color: rgb(58, 146, 247);
+    border: white 1px solid;
+    border-radius: 10px;
+}
+
+#try-container{
+    margin: 10px;
+}
+
+label[for='guess']{
+    text-decoration: underline;
+}
+
+input[type='text']{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: 'Recursive';
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    border: white solid 1px;
+    border-radius: 10px;
+    width: 10%;
+    min-width: 100px;
+    color: rgb(206, 29, 6);
+    font-size: 30px;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(206, 29, 6);
+    color: white;
+    border: white solid 1px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Sail';
+    font-size: 20px;
+}
+button:hover{
+    background-color: darkred;
+}
+
+#answer{
+    color: white;
+    font-size: 26px;
+    margin-top: 15px;
+}
+
+.hidden{
+    display: none;    
+};
+
