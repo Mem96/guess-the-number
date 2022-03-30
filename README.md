@@ -4,7 +4,7 @@ This project is a simple game. The aim is to correctly guess a secret number.
 
 I engaged in this project because I wanted to test my skills with JavaScript. I previously created a similar game in Python.
 
-**You can try this game on [GitHubPages]().**
+**You can try this game on [GitHubPages](https://mem96.github.io/guess-the-number/).**
 
 ## Functions
 
